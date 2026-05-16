@@ -97,42 +97,34 @@
 
 .warm-filter {
   filter: hue-rotate(19deg) saturate(273%);
-  -webkit-filter: hue-rotate(19deg) saturate(273%);
 }
 
 .soft-filter {
   filter: grayscale(30%) brightness(95%) contrast(90%);
-  -webkit-filter: grayscale(30%) brightness(95%) contrast(90%);
 }
 
 .cozy-filter {
-  filter: sepia(40%) saturate(110%) brightness(95%);
-  -webkit-filter: sepia(40%) saturate(110%) brightness(95%);
+  filter: sepia(4%) saturate(180%) brightness(95%);
 }
 
 .cold-filter {
   filter: hue-rotate(200deg) saturate(120%) brightness(90%);
-  -webkit-filter: hue-rotate(200deg) saturate(120%) brightness(90%);
 }
 
 .dramatic-filter {
   filter: contrast(150%) brightness(85%) saturate(130%);
-  -webkit-filter: contrast(150%) brightness(85%) saturate(130%);
 }
 
 .neon-filter {
   filter: hue-rotate(90deg) saturate(200%) brightness(105%);
-  -webkit-filter: hue-rotate(90deg) saturate(200%) brightness(105%);
 }
 
 .dark-filter {
   filter: grayscale(60%) blur(2px) brightness(70%);
-  -webkit-filter: grayscale(60%) blur(2px) brightness(70%);
 }
 
 .light-filter {
   filter: brightness(115%) contrast(95%) saturate(90%);
-  -webkit-filter: brightness(115%) contrast(95%) saturate(90%);
 }
 
 
