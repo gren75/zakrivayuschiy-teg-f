@@ -320,15 +320,13 @@
           </div>
         </div>
       </section>
-    </main>
-    <footer class="footer">
       <button type="button"
-              aria-controls="dialog-id"
-              class="save-btn button"
-              onclick="window['dialog-id'].showModal();">
+          aria-controls="dialog-id"
+          class="save-btn button"
+          onclick="window['dialog-id'].showModal();">
 
 
-        <svg class="blend-mode-svg footer-svg-button" height="21" viewBox="0 0 39 39" width="21">
+        <svg class="blend-mode-svg sprite-svg-button" height="21" viewBox="0 0 39 39" width="21">
           <use href="svg/sprite.svg#diskette" />
         </svg>
         <span class="button__text">Сохранить на память</span>
@@ -337,13 +335,13 @@
         <svg class="blend-mode-svg" height="39" viewBox="0 0 39 39" width="39">
           <use href="svg/sprite.svg#diskette" />
         </svg>
-        <span class="button__text dialog__text">Вставьте дискету, чтобы продолжить</span>
+        <p class="button__text dialog__text">Вставьте дискету, чтобы продолжить</p>
         <button type="button"
-          class="button dialog__button" onclick="window['dialog-id'].close()" type="button">
-          <span class="button__text">OK</span>
+          class="button dialog__button" onclick="window['dialog-id'].close()">
+          <span class="button__text button__ok">ок</span>
         </button>
       </dialog>
-    </footer>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>

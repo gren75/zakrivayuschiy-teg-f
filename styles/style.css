@@ -220,13 +220,17 @@
   z-index: 1;
 }
 
+.button-ok {
+  text-transform: capitalize;
+}
+
 .blend-mode-svg {
   color: var(--mix-color);
   mix-blend-mode: difference;
   z-index: 1;
 }
 
-.footer-svg-button {
+.sprite-svg-button {
   width: 21px;
   height: 21px;
 }
@@ -329,7 +333,7 @@
   .save-btn {
     flex-direction: column;
   }
-  .footer-svg-button {
+  .sprite-svg-button {
     width: 28px;
     height: 28px;
   }
