@@ -165,6 +165,21 @@
 
 .like-icon {
   display: block;
+  transform: translate(0, 0);
+  will-change: transform;
+}
+
+.like-icon .contour,
+.like-icon .main-body,
+.like-icon .core,
+.like-icon .sparks {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.like-icon .heart {
+  transform-origin: center;
+  transform-box: fill-box;
 }
 
 .card__icon-button:focus-visible {
