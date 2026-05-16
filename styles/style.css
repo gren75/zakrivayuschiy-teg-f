@@ -146,6 +146,7 @@
   display: flex;
   margin-left: auto;
   align-items: flex-start;
+  gap: 12px;
 }
 
 .card__icon-button {
@@ -156,14 +157,18 @@
   transition: box-shadow .3s ease;
   padding: 0;
   box-sizing: border-box;
+  width: 39px;
+  height: 38px;
 }
 
 .like-icon {
-  box-sizing: content-box;
+  display: block;
 }
 
 .card__icon-button:focus-visible {
-  border: 2px solid var(--accent-color);
+  outline: 2px solid var(--accent-color);
+  outline-offset: -2px;
+  border-radius: 2px;
 }
 
 .button {
@@ -175,11 +180,14 @@
   transition: box-shadow .3s ease;
   border: 2px solid var(--accent-color);
   padding: 9px 36px;
+  min-width: 130px;
 }
 
 .card__like-button {
   justify-content: center;
   max-width: 130px;
+  height: 38px;
+  box-sizing: border-box;
 }
 
 .button:focus {
