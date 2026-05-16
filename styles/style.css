@@ -94,53 +94,47 @@
   margin-bottom: -5px;
 }
 
-.saturation-filter {
+
+.warm-filter {
   filter: hue-rotate(19deg) saturate(273%);
   -webkit-filter: hue-rotate(19deg) saturate(273%);
-  -moz-filter: hue-rotate(19deg) saturate(273%);
 }
 
-.grayscale-filter {
-  filter: grayscale(50%) blur(1px) brightness(80%) saturate(120%) contrast(153%);
-  -webkit-filter: grayscale(50%) blur(1px) brightness(80%) saturate(120%) contrast(153%);
-  -moz-filter: grayscale(50%) blur(1px) brightness(80%) saturate(120%) contrast(153%);
+.soft-filter {
+  filter: grayscale(30%) brightness(95%) contrast(90%);
+  -webkit-filter: grayscale(30%) brightness(95%) contrast(90%);
 }
 
-.contrast-filter {
-  filter: grayscale(26%) blur(1px) saturate(120%) contrast(153%);
-  -webkit-filter: grayscale(26%) blur(1px) saturate(120%) contrast(153%);
-  -moz-filter: grayscale(26%) blur(1px) saturate(120%) contrast(153%);
+.cozy-filter {
+  filter: sepia(40%) saturate(110%) brightness(95%);
+  -webkit-filter: sepia(40%) saturate(110%) brightness(95%);
 }
 
-.invert-filter {
-  filter: sepia(10%) blur(1px) brightness(120%) invert(80%);
-  -webkit-filter: sepia(10%) blur(1px) brightness(120%) invert(80%);
-  -moz-filter: sepia(10%) blur(1px) brightness(120%) invert(80%);
+.cold-filter {
+  filter: hue-rotate(200deg) saturate(120%) brightness(90%);
+  -webkit-filter: hue-rotate(200deg) saturate(120%) brightness(90%);
 }
 
-.sepia-filter {
-  filter: grayscale(50%) sepia(10%);
-  -webkit-filter: grayscale(50%) sepia(10%);
-  -moz-filter: grayscale(50%) sepia(10%);
+.dramatic-filter {
+  filter: contrast(150%) brightness(85%) saturate(130%);
+  -webkit-filter: contrast(150%) brightness(85%) saturate(130%);
 }
 
-.hue-rotate-filter {
-  filter: hue-rotate(180deg);
-  -webkit-filter: hue-rotate(180deg);
-  -moz-filter: hue-rotate(180deg);
+.neon-filter {
+  filter: hue-rotate(90deg) saturate(200%) brightness(105%);
+  -webkit-filter: hue-rotate(90deg) saturate(200%) brightness(105%);
 }
 
-.grayscale-saturate-filter {
-  filter: grayscale(80%) sepia(15%) saturate(55%);
-  -webkit-filter: grayscale(80%) sepia(15%) saturate(55%);
-  -moz-filter: grayscale(80%) sepia(15%) saturate(55%);
+.dark-filter {
+  filter: grayscale(60%) blur(2px) brightness(70%);
+  -webkit-filter: grayscale(60%) blur(2px) brightness(70%);
 }
 
-.brightness-filter {
-  filter: grayscale(20%) brightness(90%) opacity(90%);
-  -webkit-filter: grayscale(20%) brightness(90%) opacity(90%);
-  -moz-filter: grayscale(20%) brightness(90%) opacity(90%);
+.light-filter {
+  filter: brightness(115%) contrast(95%) saturate(90%);
+  -webkit-filter: brightness(115%) contrast(95%) saturate(90%);
 }
+
 
 .card__description {
   font-size: 18px;
@@ -309,7 +303,7 @@
   line-height: 150%;
 }
 
-@media (width < 376px) {
+@media (width <= 375px) {
 
   .card__description-wrapper {
     padding: 22px 26px;
